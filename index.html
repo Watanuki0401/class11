@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>class 11</title>
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript">
+      function changeBgColor(color){
+        document.body.style.background = color;
+      }
+    </script>
+  </head>
+  <body>
+    <section class="color">
+      <!-- <button type="button" onclick="changeBgColor();">Cange Background Color.</button><br>　-->
+      <label><input type="radio" onclick="changeBgColor('#439A97');" name="color">Teal.</label>
+      <label><input type="radio" onclick="changeBgColor('#F8F988');" name="color">Yellow.</label>
+      <label><input type="radio" onclick="changeBgColor('#F56EB3');" name="color">Pink.</label>
+    </section>
+
+    <section class="calendar">
+      <table id="calendar">
+        <tr>
+          <td><font color="#ff9090">日</font></td>
+          <td>月</td>
+          <td>火</td>
+          <td>水</td>
+          <td>木</td>
+          <td>金</td>
+          <td><font color="#7ed5d4">土</font></td>
+        </tr>
+      </table>
+      <script src="calendar.js" charset="utf-8"></script>
+    </section>
+
+    <section class="function">
+
+    </section>
+  </body>
+</html>
